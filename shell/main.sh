@@ -23,10 +23,9 @@ $SCRIPT_DIR/dev_php.sh
 # Run OS X settings
 $SCRIPT_DIR/osx.sh
 
- read -r -p "Is this a work computer? [Y/n]" response
- response=${response,,} # tolower
- if [[ $response =~ ^(yes|y| ) ]]; then
+read -r -p "Is this a work computer? [Y/n]" response
+if [[ $response =~ ^(yes|y|Y|Yes ) ]]; then
 	$SCRIPT_DIR/work.sh
- fi
+fi
 
 echo "Done provisioning!"
