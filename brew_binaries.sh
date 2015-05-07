@@ -13,7 +13,6 @@ binaries=(
   duti            # Set default applications
   bchunk          # disk format stuff
   jq              # JSON parser for bash
-  dinghy
   wget
   mackup
 )

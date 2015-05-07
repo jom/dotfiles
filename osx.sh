@@ -12,6 +12,14 @@ defaults write com.apple.dock autohide -bool true
 
 # Remove all icons from dock
 dockutil --remove all
+dockutil --add "/Applications/Mail.app"
+dockutil --add "/Applications/Google Chrome.app"
+dockutil --add "/Applications/Firefox.app"
+dockutil --add "/Applications/Safari.app"
+dockutil --add "/Applications/Sublime Text.app"
+dockutil --add "/Applications/Atom.app"
+dockutil --add "/Applications/Utilities/Terminal.app"
+dockutil --add "/Applications/Sequel Pro.app"
 
 # Add Downloads folder to other section and view as fan sorted by date modified
 dockutil --add ~/Downloads --section others --view fan --sort dateadded --display stack
@@ -76,6 +84,9 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # Automatically open a new Finder window when a read only volume is mounted
 defaults write com.apple.frameworks.diskimages auto-open-ro-root -bool true
 defaults write com.apple.frameworks.diskimages auto-open-rw-root -bool false
+
+# New window points to home
+defaults write com.apple.finder NewWindowTarget -string "PfHm"
 
 # Avoid creating .DS_Store files on network volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
