@@ -23,4 +23,17 @@ $SCRIPT_DIR/dev_php.sh
 # Run OS X settings
 $SCRIPT_DIR/osx.sh
 
+echo "Is this a work machine? (yes/no)"
+read CONTINUE
+
+while [[ $CONTINUE != "no" && $CONTINUE != "yes" ]]; do
+	echo "You must enter 'yes' or 'no'."
+	echo "Is this a work machine? (yes/no)"
+	read CONTINUE
+done
+
+if [ $CONTINUE == "yes"]; then
+	$SCRIPT_DIR/work.sh
+fi
+
 echo "Done provisioning!"
