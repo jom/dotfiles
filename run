@@ -20,5 +20,10 @@ git clone --recursive https://www.github.com/jom/dotfiles.git
 cd dotfiles
 sh shell/main.sh
 
+read -r -p "Is this a work computer? [Y/n]" response
+if [[ $response =~ ^(yes|y|Y|Yes ) ]]; then
+	shell/work.sh
+fi
+
 cd ..
 rm -rf dotfiles
