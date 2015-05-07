@@ -22,10 +22,9 @@ $SCRIPT_DIR/dev_php.sh
 
 # Run OS X settings
 $SCRIPT_DIR/osx.sh
-
-read -p "Is this a work computer? " -n 1 -r
+read -p "Is this a work computer? (y/n)?" CONT
 echo    # (optional) move to a new line
-if [[ $REPLY =~ ^[Yy]$ ]]
+if [[ $CONT =~ ^[Yy]$ ]]
 then
 	$SCRIPT_DIR/work.sh
 fi
