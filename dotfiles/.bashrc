@@ -57,8 +57,6 @@ YELLOW="\[\033[1;33m\]"
 WHITE="\[\033[1;37m\]"
 NOCOLOR="\[\033[0m\]"
 
-# z!
-. ~/bin/z.sh
 
 # Expected working dir for code
 export CODE=~/code
