@@ -7,7 +7,7 @@ dockutil --add "~/Google Drive/PSESD/Bookmarks/Servers" --section others --view 
 
 if [ ! -d "/Applications/Cisco" ]; then
 	# if [ ! -f anyconnect.dmg ]; then
- #        wget -O"anyconnect.dmg" $ANYCONNECT_INSTALLER
+ 	# 	wget -O"anyconnect.dmg" $ANYCONNECT_INSTALLER
 	# fi
 
 	hdiutil mount apps/anyconnect.dmg

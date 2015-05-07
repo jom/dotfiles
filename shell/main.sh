@@ -1,22 +1,26 @@
 #!/usr/bin/env bash
 
+export SCRIPT_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+
 # Set up brew
-./brew.sh
+$SCRIPT_DIR/brew.sh
 
 # Set up brew binaries
-./brew_binaries.sh
+$SCRIPT_DIR/brew_binaries.sh
 
 # Set up brew casks
-./brew_casks.sh
+$SCRIPT_DIR/brew_casks.sh
 
 # Non-mackup dotfiles
-./dotfiles.sh
+$SCRIPT_DIR/dotfiles.sh
 
 # Mackup stuff
-./mackup.sh
+$SCRIPT_DIR/mackup.sh
 
 # PHP stuff
-./dev_php.sh
+$SCRIPT_DIR/dev_php.sh
 
 # Run OS X settings
-./osx.sh
+$SCRIPT_DIR/osx.sh
+
+echo "Done provisioning!"
