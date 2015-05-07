@@ -119,7 +119,7 @@ defaults write com.apple.finder ShowPathBar -bool true
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 
 # Default List View
-defaults write com.apple.finder FXPreferredViewStyle -string “Nlsv”
+defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
 
 
