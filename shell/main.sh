@@ -23,15 +23,11 @@ $SCRIPT_DIR/dev_php.sh
 # Run OS X settings
 $SCRIPT_DIR/osx.sh
 
-echo "Is this a work machine? (Yes/No)"
-select yn in "Yes" "No"; do
-    case $yn in
-        Yes ) 
-            $SCRIPT_DIR/work.sh
-            break;;
-        No )
-            break;;
-    esac
-done
+read -p "Is this a work computer? " -n 1 -r
+echo    # (optional) move to a new line
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	$SCRIPT_DIR/work.sh
+fi
 
 echo "Done provisioning!"
