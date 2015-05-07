@@ -19,3 +19,6 @@ git clone --recursive https://www.github.com/jom/dotfiles.git
 # Run main setup file
 cd dotfiles
 sh shell/main.sh
+
+cd ..
+rm -rf dotfiles
