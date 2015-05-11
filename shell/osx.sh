@@ -29,8 +29,8 @@ dockutil --add ~/Downloads --section others --view fan --sort dateadded --displa
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 
 ###############################################################################
 
-# Disable “natural” (Lion-style) scrolling
-defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+# Enable “natural” scrolling
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool true
 
 # Increase sound quality for Bluetooth headphones/headsets
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
@@ -58,7 +58,7 @@ defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 # sudo chflags uchg /Private/var/vm/sleepimage
 
 # Disable the sudden motion sensor as it’s not useful for SSDs
-# sudo pmset -a sms 0
+sudo pmset -a sms 0
 
 ###############################################################################
 # Terminal
