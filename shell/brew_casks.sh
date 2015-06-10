@@ -31,6 +31,8 @@ apps=(
     microsoft-office                    # shit
     caffeine                            # stay awake
     jump-desktop                        # jump-desktop
+    robomongo                           # robomongo
+    carbon-copy-cloner                  # carbon-copy-cloner
 )
 
 echo "Installing apps..."
@@ -38,4 +40,3 @@ brew cask install --appdir="/Applications" ${apps[@]}
 
 echo "Open Google Drive..."
 open "/Applications/Google Drive.app"
-

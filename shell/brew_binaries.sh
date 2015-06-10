@@ -1,8 +1,8 @@
 binaries=(
 	graphicsmagick	# Image manipulation library
 	rename			    # CLI: rename files
-	trash			      # CLI: send files to trash 
-	tree			      # CLI: view directory as tree 
+	trash			      # CLI: send files to trash
+	tree			      # CLI: view directory as tree
 	ack				      # CLI: better grep
 	hub				      # GitHub helpers for git
 	git				      # Version control
@@ -15,6 +15,7 @@ binaries=(
   jq              # JSON parser for bash
   wget
   mackup
+	docker
 )
 
 echo "Installing brew binaries..."
