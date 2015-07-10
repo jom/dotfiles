@@ -16,6 +16,7 @@ binaries=(
   wget
   mackup
 	docker
+	docker-compose
 )
 
 echo "Installing brew binaries..."
