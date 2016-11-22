@@ -39,6 +39,8 @@ apps=(
     homebrew/php/composer
     Caskroom/versions/docker-beta
     Caskroom/cask/ginbox
+    Caskroom/cask/skype
+    Caskroom/cask/things
 )
 
 echo "Installing apps..."
