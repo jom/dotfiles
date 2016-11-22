@@ -22,8 +22,8 @@ binaries=(
 echo "Installing brew binaries..."
 brew install ${binaries[@]}
 
-if [ ! -f /usr/local/bin/dinghy ]; then
-	brew install https://github.com/codekitchen/dinghy/raw/latest/dinghy.rb
-fi
+# if [ ! -f /usr/local/bin/dinghy ]; then
+# 	brew install https://github.com/codekitchen/dinghy/raw/latest/dinghy.rb
+# fi
 
 brew cleanup

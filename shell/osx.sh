@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 ###############################################################################
-# Dock, Dashboard, and hot corners                                            
+# Dock, Dashboard, and hot corners
 ###############################################################################
 
 # Set the icon size of Dock items to 36 pixels
@@ -11,29 +11,28 @@ defaults write com.apple.dock tilesize -int 36
 defaults write com.apple.dock autohide -bool true
 
 # Remove all icons from dock
-dockutil --remove all
-dockutil --add "/Applications/Mail.app"
-dockutil --add "/Applications/Google Chrome.app"
-dockutil --add "/Applications/Firefox.app"
-dockutil --add "/Applications/Safari.app"
-dockutil --add "/Applications/Sublime Text.app"
-dockutil --add "/Applications/Atom.app"
-dockutil --add "/Applications/Utilities/Terminal.app"
-dockutil --add "/Applications/Sequel Pro.app"
+# dockutil --remove all
+# dockutil --add "/Applications/Mail.app"
+# dockutil --add "/Applications/Google Chrome.app"
+# dockutil --add "/Applications/Safari.app"
+# dockutil --add "/Applications/Sublime Text.app"
+# dockutil --add "/Applications/Atom.app"
+# dockutil --add "/Applications/Utilities/Terminal.app"
+# dockutil --add "/Applications/Sequel Pro.app"
 
 # Add Downloads folder to other section and view as fan sorted by date modified
 dockutil --add ~/Downloads --section others --view fan --sort dateadded --display stack
 
 
 ###############################################################################
-# Trackpad, mouse, keyboard, Bluetooth accessories, and input                 
+# Trackpad, mouse, keyboard, Bluetooth accessories, and input
 ###############################################################################
 
 # Enable “natural” scrolling
-defaults write NSGlobalDomain com.apple.swipescrolldirection -bool true
+# defaults write NSGlobalDomain com.apple.swipescrolldirection -bool true
 
 # Increase sound quality for Bluetooth headphones/headsets
-defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
+# defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
 # Trackpad: enable tap to click for this user and for the login screen
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
@@ -41,7 +40,7 @@ defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 ###############################################################################
-# SSD-specific tweaks                                                         
+# SSD-specific tweaks
 ###############################################################################
 
 # Disable local Time Machine snapshots

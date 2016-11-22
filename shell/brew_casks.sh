@@ -13,26 +13,27 @@ apps=(
     firefox                             # firefox
     transmit                            # File transmission
     appcleaner				            # Delete apps thoroughly
-    spotify                             # Music streaming
+    # spotify                             # Music streaming
     sublime-text3			            # Text editor
     google-drive			            # Google Drive
-    bettertouchtool                     # Hotkeys and trackpad
+    # bettertouchtool                     # Hotkeys and trackpad
     flash                               # Flash player
     flux                                # Screen management
     dash                                # documentation
     skim                                # PDF reader
-    adobe-creative-cloud		        # Adobe
-    rescuetime				            # Keep track of time
+    # adobe-creative-cloud		        # Adobe
+    # rescuetime				            # Keep track of time
     virtualbox                          # Virtualbox
     vagrant                             # Vagrant
     sequel-pro                          # MySQL gui
     github                              # Github.app
     bartender                           # mind the bar
-    microsoft-office                    # shit
+    # microsoft-office                    # shit
     caffeine                            # stay awake
-    jump-desktop                        # jump-desktop
-    robomongo                           # robomongo
-    carbon-copy-cloner                  # carbon-copy-cloner
+    # jump-desktop                        # jump-desktop
+    # robomongo                           # robomongo
+    # carbon-copy-cloner                  # carbon-copy-cloner
+    slack
 )
 
 echo "Installing apps..."
