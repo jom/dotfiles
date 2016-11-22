@@ -38,9 +38,9 @@ apps=(
     wp-cli
     homebrew/php/composer
     Caskroom/versions/docker-beta
-    Caskroom/cask/ginbox
     Caskroom/cask/skype
     Caskroom/cask/things
+    Caskroom/cask/sonos
 )
 
 echo "Installing apps..."
