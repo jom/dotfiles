@@ -14,10 +14,10 @@ apps=(
     transmit                            # File transmission
     appcleaner				            # Delete apps thoroughly
     # spotify                             # Music streaming
-    sublime-text3			            # Text editor
+    Caskroom/cask/sublime-text
     google-drive			            # Google Drive
     # bettertouchtool                     # Hotkeys and trackpad
-    flash                               # Flash player
+    flash-player                               # Flash player
     flux                                # Screen management
     dash                                # documentation
     skim                                # PDF reader
@@ -26,7 +26,7 @@ apps=(
     virtualbox                          # Virtualbox
     vagrant                             # Vagrant
     sequel-pro                          # MySQL gui
-    github                              # Github.app
+    github-desktop                              # Github.app
     bartender                           # mind the bar
     # microsoft-office                    # shit
     caffeine                            # stay awake
@@ -34,6 +34,11 @@ apps=(
     # robomongo                           # robomongo
     # carbon-copy-cloner                  # carbon-copy-cloner
     slack
+    Caskroom/cask/tunnelblick
+    wp-cli
+    homebrew/php/composer
+    Caskroom/versions/docker-beta
+    Caskroom/cask/ginbox
 )
 
 echo "Installing apps..."

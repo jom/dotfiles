@@ -30,6 +30,3 @@ sh shell/main.sh
 if [ "$1" == "--work" ]; then
 	shell/work.sh
 fi
-
-cd ..
-rm -rf dotfiles
