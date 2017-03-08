@@ -66,6 +66,9 @@ sudo pmset -a sms 0
 # Only use UTF-8 in Terminal.app
 defaults write com.apple.Terminal StringEncodings -array 4
 
+# Install Terminal Font
+open "supporting/Meslo LG S DZ Regular for Powerline.otf"
+
 # Install Terminal Theme
 open supporting/Flatland.terminal
 
