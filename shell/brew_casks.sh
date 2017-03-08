@@ -14,7 +14,7 @@ apps=(
     transmit                            # File transmission
     appcleaner				            # Delete apps thoroughly
     # spotify                             # Music streaming
-    Caskroom/cask/sublime-text
+    sublime-text
     google-drive			            # Google Drive
     # bettertouchtool                     # Hotkeys and trackpad
     flash-player                               # Flash player
@@ -32,15 +32,31 @@ apps=(
     caffeine                            # stay awake
     # jump-desktop                        # jump-desktop
     # robomongo                           # robomongo
-    # carbon-copy-cloner                  # carbon-copy-cloner
+    carbon-copy-cloner                  # carbon-copy-cloner
     slack
-    Caskroom/cask/tunnelblick
     wp-cli
+    homebrew/php/php71
+    homebrew/php/php71-imagick
+    homebrew/php/php71-mcrypt
+    homebrew/php/php71-xdebug
     homebrew/php/composer
-    Caskroom/versions/docker-beta
-    Caskroom/cask/skype
-    Caskroom/cask/things
-    Caskroom/cask/sonos
+    docker-toolbox
+    skype
+    things
+    omnifocus
+    sonos
+    doxie
+    textwrangler
+    wordpresscom
+    handbrake
+    vagrant
+    tunnelblick
+    doxie
+    1password
+    alfred
+    zoom
+    micro-snitch
+    little-snitch
 )
 
 echo "Installing apps..."

@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-cp -R dotfiles/.mackup.cfg ~/
+cp -R supporting/.mackup.cfg ~/

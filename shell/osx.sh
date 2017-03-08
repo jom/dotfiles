@@ -66,9 +66,12 @@ sudo pmset -a sms 0
 # Only use UTF-8 in Terminal.app
 defaults write com.apple.Terminal StringEncodings -array 4
 
+# Install Terminal Theme
+open supporting/Flatland.terminal
+
 # Use the Pro theme by default in Terminal.app
-defaults write com.apple.Terminal 'Default Window Settings' -string "Pro";
-defaults write com.apple.Terminal 'Startup Window Settings' -string "Pro";
+defaults write com.apple.Terminal 'Default Window Settings' -string "Flatland";
+defaults write com.apple.Terminal 'Startup Window Settings' -string "Flatland";
 
 ###############################################################################
 # Finder
@@ -147,6 +150,13 @@ sudo spctl --master-disable
 ###############################################################################
 # Other App Settings
 ###############################################################################
+
+mkdir ~/Temporary
+mkdir ~/Temporary/Screenshots
+mkdir ~/Temporary/SQL\ Dumps
+
+# Screen capture location
+defaults write com.apple.screencapture location ~/Temporary/Screenshots
 
 # Safari debug menu
 defaults write com.apple.Safari IncludeInternalDebugMenu -bool true

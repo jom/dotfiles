@@ -6,17 +6,17 @@ binaries=(
 	ack				      # CLI: better grep
 	hub				      # GitHub helpers for git
 	git				      # Version control
-  dockutil        # Manage OS X dock
-  autoconf        # Autotools
-  automake        # Autotools
-  node            # Node.js
-  duti            # Set default applications
-  bchunk          # disk format stuff
-  jq              # JSON parser for bash
-  wget
-  mackup
-	docker
-	docker-compose
+	dockutil        # Manage OS X dock
+	autoconf        # Autotools
+	automake        # Autotools
+	node            # Node.js
+	duti            # Set default applications
+	bchunk          # disk format stuff
+	jq              # JSON parser for bash
+	wget
+	mackup
+	mysql-utilities
+	hhvm
 )
 
 echo "Installing brew binaries..."
