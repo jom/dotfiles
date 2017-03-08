@@ -52,6 +52,7 @@ apps=(
     micro-snitch
     little-snitch
     sourcetree
+    phpstorm
 )
 
 echo "Installing apps..."
