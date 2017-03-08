@@ -16,7 +16,6 @@ binaries=(
 	wget
 	mackup
 	mysql-utilities
-	hhvm
 )
 
 echo "Installing brew binaries..."
