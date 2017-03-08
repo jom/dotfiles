@@ -34,12 +34,6 @@ apps=(
     # robomongo                           # robomongo
     carbon-copy-cloner                  # carbon-copy-cloner
     slack
-    homebrew/php/php71
-    homebrew/php/php71-imagick
-    homebrew/php/php71-mcrypt
-    homebrew/php/php71-xdebug
-    homebrew/php/composer
-    homebrew/php/wp-cli
     docker-toolbox
     skype
     things
