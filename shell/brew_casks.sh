@@ -57,6 +57,7 @@ apps=(
     zoom
     micro-snitch
     little-snitch
+    sourcetree
 )
 
 echo "Installing apps..."
