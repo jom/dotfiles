@@ -53,6 +53,7 @@ apps=(
     little-snitch
     sourcetree
     phpstorm
+    duet
 )
 
 echo "Installing apps..."
