@@ -16,12 +16,24 @@ binaries=(
 	wget
 	mackup
 	mysql-utilities
-    homebrew/php/php71
-    homebrew/php/php71-imagick
-    homebrew/php/php71-mcrypt
-    homebrew/php/php71-xdebug
-    homebrew/php/composer
-    homebrew/php/wp-cli
+	dnsmasq
+	rsync
+	unison
+	homebrew/php/php71
+	homebrew/php/php71-imagick
+	homebrew/php/php71-mcrypt
+	homebrew/php/php71-xdebug
+	homebrew/php/composer
+	homebrew/php/wp-cli
+	docker
+	docker-compose
+	docker-machine
+	docker-machine-driver-xhyve
+	xhyve
+	dinghy
+	unfs3
+	yarn
+	mas
 )
 
 echo "Installing brew binaries..."

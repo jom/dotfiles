@@ -20,11 +20,13 @@ brew install findutils
 # Install Bash 4
 brew install bash
 
-
 # Install ZSH and Oh-My-Zsh
 brew install zsh zsh-completions
 
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+
+brew tap mas-cli/tap
+brew tap-pin mas-cli/tap
 
 # Install more recent versions of some OS X tools
 brew tap homebrew/dupes

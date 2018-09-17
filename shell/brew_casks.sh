@@ -12,15 +12,15 @@ apps=(
     google-chrome			            # Chrome, that Google browser
     firefox                             # firefox
     transmit                            # File transmission
-    appcleaner				            # Delete apps thoroughly
+    # appcleaner				            # Delete apps thoroughly
     # spotify                             # Music streaming
     sublime-text
     google-drive			            # Google Drive
-    # bettertouchtool                     # Hotkeys and trackpad
-    flash-player                               # Flash player
+    bettertouchtool                     # Hotkeys and trackpad
+    # flash-player                      # Flash player
     flux                                # Screen management
     dash                                # documentation
-    skim                                # PDF reader
+    # skim                                # PDF reader
     # adobe-creative-cloud		        # Adobe
     # rescuetime				            # Keep track of time
     virtualbox                          # Virtualbox
@@ -29,21 +29,20 @@ apps=(
     github-desktop                              # Github.app
     bartender                           # mind the bar
     # microsoft-office                    # shit
-    caffeine                            # stay awake
+    # caffeine                            # stay awake
     # jump-desktop                        # jump-desktop
     # robomongo                           # robomongo
-    carbon-copy-cloner                  # carbon-copy-cloner
-    slack
-    docker-toolbox
-    skype
-    things
-    omnifocus
+    # carbon-copy-cloner                  # carbon-copy-cloner
+    # slack
+    # docker-toolbox
+    # skype
+    # things
+    # omnifocus
     sonos
     doxie
     textwrangler
     wordpresscom
     handbrake
-    vagrant
     tunnelblick
     doxie
     1password
