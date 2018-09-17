@@ -1,22 +1,22 @@
 #!/usr/bin/env bash
 
-export GOOGLE_DRIVE_MACKUP_DIR="Google Drive/Mackup"
+export STORAGE_MACKUP_DIR="~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Mackup"
 
 if [ ! -d .mackup ]; then
 	cd ~
 
-	while [ ! -d "$GOOGLE_DRIVE_MACKUP_DIR" ]; do
-		echo "Waiting for Google Drive Mackup folder ($GOOGLE_DRIVE_MACKUP_DIR)..."
+	while [ ! -d "$STORAGE_MACKUP_DIR" ]; do
+		echo "Waiting for iCloud Mackup folder ($STORAGE_MACKUP_DIR)..."
 		sleep 60
 	done
 
-	FILECOUNT=$(find "$GOOGLE_DRIVE_MACKUP_DIR" -type f | wc -l)
+	FILECOUNT=$(find "$STORAGE_MACKUP_DIR" -type f | wc -l)
 	FILECOUNT_CLEAN=$(echo "$FILECOUNT" | tr -d '[[:space:]]')
 
 	while [ $FILECOUNT_CLEAN -lt 500 ]; do
-		echo "Waiting for Google Drive Mackup files A..."
+		echo "Waiting for iCloud Mackup files A..."
 		sleep 10
-		FILECOUNT=$(find "$GOOGLE_DRIVE_MACKUP_DIR" -type f | wc -l)
+		FILECOUNT=$(find "$STORAGE_MACKUP_DIR" -type f | wc -l)
 		FILECOUNT_CLEAN=$(echo "$FILECOUNT" | tr -d '[[:space:]]')
 	done
 

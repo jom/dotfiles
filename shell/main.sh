@@ -23,6 +23,9 @@ $SCRIPT_DIR/mackup.sh
 # PHP stuff
 $SCRIPT_DIR/dev_php.sh
 
+# Node stuff
+$SCRIPT_DIR/node.sh
+
 # Run OS X settings
 $SCRIPT_DIR/osx.sh
 
