@@ -12,7 +12,7 @@ $SCRIPT_DIR/brew_binaries.sh
 $SCRIPT_DIR/brew_casks.sh
 
 # Set up mac app store
-$SCRIPT_DIR/mas.sh
+# $SCRIPT_DIR/mas.sh
 
 # Non-mackup dotfiles
 $SCRIPT_DIR/dotfiles.sh

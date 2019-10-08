@@ -19,21 +19,17 @@ binaries=(
 	dnsmasq
 	rsync
 	unison
-	homebrew/php/php71
-	homebrew/php/php71-imagick
-	homebrew/php/php71-mcrypt
-	homebrew/php/php71-xdebug
-	homebrew/php/composer
-	homebrew/php/wp-cli
+	php@7.3
+	composer
+	wp-cli
 	docker
 	docker-compose
 	docker-machine
 	docker-machine-driver-xhyve
 	xhyve
-	dinghy
-	unfs3
 	yarn
 	mas
+	ddev
 )
 
 echo "Installing brew binaries..."

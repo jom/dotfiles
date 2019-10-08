@@ -1,11 +1,11 @@
 # Install homebrew cask
-brew install caskroom/cask/brew-cask
+# brew install caskroom/cask/brew-cask
 
 # Tap custom casks
-brew tap casidiablo/homebrew-custom
+# brew tap casidiablo/homebrew-custom
 
 # Tap development versions
-brew tap caskroom/versions
+# brew tap caskroom/versions
 
 apps=(
     atom                                # Text Editor
@@ -15,32 +15,30 @@ apps=(
     # appcleaner				            # Delete apps thoroughly
     # spotify                             # Music streaming
     sublime-text
-    google-drive			            # Google Drive
-    bettertouchtool                     # Hotkeys and trackpad
+    google-backup-and-sync			            # Google Drive
+    # bettertouchtool                     # Hotkeys and trackpad
     # flash-player                      # Flash player
-    flux                                # Screen management
+    # flux                                # Screen management
     dash                                # documentation
     # skim                                # PDF reader
     # adobe-creative-cloud		        # Adobe
     # rescuetime				            # Keep track of time
-    virtualbox                          # Virtualbox
+    # virtualbox                          # Virtualbox
     vagrant                             # Vagrant
     sequel-pro                          # MySQL gui
-    github-desktop                              # Github.app
-    bartender                           # mind the bar
+    github                              # Github.app
+    # bartender                           # mind the bar
     # microsoft-office                    # shit
     # caffeine                            # stay awake
     # jump-desktop                        # jump-desktop
     # robomongo                           # robomongo
     # carbon-copy-cloner                  # carbon-copy-cloner
-    # slack
+    slack
     # docker-toolbox
     # skype
     # things
     # omnifocus
-    sonos
     doxie
-    textwrangler
     wordpresscom
     handbrake
     tunnelblick
@@ -48,15 +46,15 @@ apps=(
     1password
     alfred
     zoom
-    micro-snitch
+    # micro-snitch
     little-snitch
     sourcetree
-    phpstorm
-    duet
+    jetbrains-toolbox
+    setapp
 )
 
 echo "Installing apps..."
 brew cask install --appdir="/Applications" ${apps[@]}
 
-echo "Open Google Drive..."
-open "/Applications/Google Drive.app"
+echo "Open Google Backup and Sync..."
+open "/Applications/Google Backup and Sync.app"

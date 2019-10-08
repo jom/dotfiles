@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# No longer works.
+
 apps=(
 	866773894 # Quiver
 	904280696 # Things3
@@ -10,9 +12,9 @@ apps=(
 	414030210 # LimeChat
 	# 682658836 # GarageBand
 	488536386 # Location Helper
-	668208984 # GIPHY CAPTURE
-	1082170746 # Aware
-	1262957439 # Textual 7
+	# 668208984 # GIPHY CAPTURE
+	# 1082170746 # Aware
+	# 1262957439 # Textual 7
 	# 880001334 # Reeder
 	497799835 # Xcode
 	1147396723 # WhatsApp
@@ -24,7 +26,7 @@ apps=(
 	824183456 # Affinity Photo
 	472226235 # LanScan
 	803453959 # Slack
-	488764545 # The Clock
+	# 488764545 # The Clock
 	568494494 # Pocket
 )
 
