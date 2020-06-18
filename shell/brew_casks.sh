@@ -8,7 +8,7 @@
 # brew tap caskroom/versions
 
 apps=(
-    atom                                # Text Editor
+    # atom                                # Text Editor
     google-chrome			            # Chrome, that Google browser
     firefox                             # firefox
     transmit                            # File transmission
@@ -20,11 +20,12 @@ apps=(
     # flash-player                      # Flash player
     # flux                                # Screen management
     dash                                # documentation
+    local
     # skim                                # PDF reader
     # adobe-creative-cloud		        # Adobe
     # rescuetime				            # Keep track of time
     # virtualbox                          # Virtualbox
-    vagrant                             # Vagrant
+    #vagrant                             # Vagrant
     sequel-pro                          # MySQL gui
     github                              # Github.app
     # bartender                           # mind the bar
@@ -39,18 +40,21 @@ apps=(
     # things
     # omnifocus
     doxie
+    karabiner-elements
     wordpresscom
     handbrake
     tunnelblick
-    doxie
     1password
-    alfred
     zoom
     # micro-snitch
     little-snitch
     sourcetree
+    mtmr
+    rstudio
     jetbrains-toolbox
+    sonos
     setapp
+    whatsapp
 )
 
 echo "Installing apps..."

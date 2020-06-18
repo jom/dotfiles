@@ -1,35 +1,55 @@
 binaries=(
-	graphicsmagick	# Image manipulation library
-	rename			    # CLI: rename files
-	trash			      # CLI: send files to trash
-	tree			      # CLI: view directory as tree
-	ack				      # CLI: better grep
-	hub				      # GitHub helpers for git
-	git				      # Version control
-	dockutil        # Manage OS X dock
-	autoconf        # Autotools
-	automake        # Autotools
-	node            # Node.js
-	duti            # Set default applications
-	bchunk          # disk format stuff
-	jq              # JSON parser for bash
-	wget
-	mackup
-	mysql-utilities
-	dnsmasq
-	rsync
-	unison
-	php@7.3
+	ack
+	automake
+	bandwhich
+	bash
+	bchunk
+	brew-php-switcher
 	composer
-	wp-cli
+	coreutils
+	drud/ddev/ddev
+	dnsmasq
 	docker
 	docker-compose
-	docker-machine
 	docker-machine-driver-xhyve
+	dockutil
+	duti
+	exiftool
+	findutils
+	git
+	gnu-sed
+	graphicsmagick
+	grep
+	hub
+	imagemagick
+	jo
+	jq
+	mackup
+	mas-cli/tap/mas
+	mtr
+	mysql
+	mysql-utilities
+	mysql@5.6
+	node@10
+	php
+	php@7.2
+	php@7.3
+	pkg-config
+	protobuf@3.7
+	python
+	r
+	rename
+	rsync
+	ruby
+	trash
+	tree
+	unison
+	wget
+	wp-cli
 	xhyve
 	yarn
-	mas
-	ddev
+	zsh
+	zsh-completions
 )
 
 echo "Installing brew binaries..."

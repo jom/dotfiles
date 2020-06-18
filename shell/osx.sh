@@ -13,10 +13,10 @@ defaults write com.apple.dock autohide -bool true
 # Remove all icons from dock
 dockutil --remove all
 dockutil --add "/Applications/Firefox.app"
-dockutil --add "/Applications/Google Chrome.app"
 dockutil --add "/Applications/Sublime Text.app"
 dockutil --add "/Applications/Slack.app"
-dockutil --add "/Applications/Reminders.app"
+dockutil --add "/Applications/Things.app"
+dockutil --add "/Applications/Agenda.app"
 
 # Add Downloads folder to other section and view as fan sorted by date modified
 dockutil --add ~/Downloads --section others --view fan --sort dateadded --display stack
