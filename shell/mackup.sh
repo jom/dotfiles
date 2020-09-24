@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export STORAGE_MACKUP_DIR="~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Mackup"
+export STORAGE_MACKUP_DIR=/Users/jmorrison/Library/Mobile\ Documents/com\~apple\~CloudDocs/Mackup
 
 if [ ! -d .mackup ]; then
 	cd ~

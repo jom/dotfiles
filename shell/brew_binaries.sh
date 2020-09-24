@@ -28,14 +28,12 @@ binaries=(
 	mas-cli/tap/mas
 	mtr
 	mysql
-	mysql-utilities
 	mysql@5.6
 	node@10
 	php
 	php@7.2
 	php@7.3
 	pkg-config
-	protobuf@3.7
 	python
 	r
 	rename

@@ -19,7 +19,7 @@ apps=(
     # bettertouchtool                     # Hotkeys and trackpad
     # flash-player                      # Flash player
     # flux                                # Screen management
-    dash                                # documentation
+    #dash                                # documentation
     local
     # skim                                # PDF reader
     # adobe-creative-cloud		        # Adobe
@@ -34,7 +34,7 @@ apps=(
     # jump-desktop                        # jump-desktop
     # robomongo                           # robomongo
     # carbon-copy-cloner                  # carbon-copy-cloner
-    slack
+    # slack
     # docker-toolbox
     # skype
     # things
@@ -44,7 +44,7 @@ apps=(
     wordpresscom
     handbrake
     tunnelblick
-    1password
+    # 1password
     zoom
     # micro-snitch
     little-snitch
@@ -52,7 +52,6 @@ apps=(
     mtmr
     rstudio
     jetbrains-toolbox
-    sonos
     setapp
     whatsapp
 )
@@ -61,4 +60,4 @@ echo "Installing apps..."
 brew cask install --appdir="/Applications" ${apps[@]}
 
 echo "Open Google Backup and Sync..."
-open "/Applications/Google Backup and Sync.app"
+open "/Applications/Backup and Sync.app"
